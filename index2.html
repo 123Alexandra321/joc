@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Joc – Click pe cerc</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #joc {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      background: #f0f0f0;
+    }
+
+    .cerc {
+      width: 50px;
+      height: 50px;
+      background: crimson;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    #scor {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+      background: white;
+      padding: 5px 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+<div id="joc">
+  <div id="scor">Scor: 0</div>
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>
+
